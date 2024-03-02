@@ -9,7 +9,9 @@ Biblioteca Pandas
 <h2 align="left">Instalação das Dependências</h2>
 Certifique-se de que você tenha o Python instalado em sua máquina. Para instalar a biblioteca Pandas, você pode executar o seguinte comando:
 
+```
 pip install pandas
+```
 
 <h2 align="left">Como Usar</h2>
 Faça o download ou clone este repositório em sua máquina local.
@@ -18,11 +20,15 @@ Abra o arquivo index.py em um editor de texto de sua escolha ou IDE.
 
 Especifique o local do arquivo Excel original que você deseja limpar no seguinte trecho de código:
 
+```
 df = pd.read_excel(r'Especificar o local do arquivo original aqui.')
+```
 
 Especifique o local de salvamento do novo arquivo limpo no seguinte trecho de código:
 
+```
 escrever = pd.ExcelWriter(r'Especificar o local de salvamento do novo arquivo aqui.')
+```
 
 Salve suas alterações.
 
