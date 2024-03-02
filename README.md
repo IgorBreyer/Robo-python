@@ -1,6 +1,7 @@
 <h1 align="left">Excel Data Cleaner</h1>
 
 Este é um simples script em Python para limpeza de dados em arquivos do Excel. Ele lê um arquivo Excel, remove linhas que possuem todos os valores nulos e salva o arquivo limpo em um novo local especificado.
+Foi criado para sanar um problema que me deparei em meu trabalho onde tinha um arquivo com quase 100 mil linhas em excel e várias linhas em branco para remover.
 
 <h2 align="left">Pré-requisitos</h2>
 Python 3.x
