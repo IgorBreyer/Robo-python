@@ -2,10 +2,10 @@ import pandas as pd
 import time
 
 try:
-    df = pd.read_excel(r'C:\Users\igor.mori\Documents\Projetos\Robo python\dist\entrada.xlsx')
+    df = pd.read_excel(r'Especificar o local do arquivo original aqui.')
     df = df.dropna(how="all")
     
-    escrever = pd.ExcelWriter(r'C:\Users\igor.mori\Documents\Projetos\Robo python\saida.xlsx')
+    escrever = pd.ExcelWriter(r'Especificar o local de salvamento do novo arquivo aqui.')
     df.to_excel(escrever, index=False)
     
     escrever.close()
