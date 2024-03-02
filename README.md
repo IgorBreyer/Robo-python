@@ -36,7 +36,9 @@ Abra um terminal e navegue até o diretório onde você salvou o script.
 
 Execute o script Python:
 
+```
 python excel_data_cleaner.py
+```
 
 Aguarde até que o processo de limpeza seja concluído. O script aguardará 10 segundos após a execução antes de fechar.
 
