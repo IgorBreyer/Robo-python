@@ -2,16 +2,16 @@
 
 Este é um simples script em Python para limpeza de dados em arquivos do Excel. Ele lê um arquivo Excel, remove linhas que possuem todos os valores nulos e salva o arquivo limpo em um novo local especificado.
 
-<h4 align="left">Pré-requisitos</h4>
+<h2 align="left">Pré-requisitos</h2>
 Python 3.x
 Biblioteca Pandas
 
-<h4 align="left">Instalação das Dependências</h4>
+<h2 align="left">Instalação das Dependências</h2>
 Certifique-se de que você tenha o Python instalado em sua máquina. Para instalar a biblioteca Pandas, você pode executar o seguinte comando:
 
 pip install pandas
 
-<h4 align="left">Como Usar</h4>
+<h2 align="left">Como Usar</h2>
 Faça o download ou clone este repositório em sua máquina local.
 
 Abra o arquivo index.py em um editor de texto de sua escolha ou IDE.
@@ -34,6 +34,6 @@ python excel_data_cleaner.py
 
 Aguarde até que o processo de limpeza seja concluído. O script aguardará 10 segundos após a execução antes de fechar.
 
-<h4 align="left">Observações</h4>
+<h2 align="left">Observações</h2>
 Certifique-se de fornecer o caminho correto para o arquivo Excel original e o caminho onde deseja salvar o novo arquivo limpo.
 Este script trata exceções básicas. Certifique-se de manipular exceções adequadamente em produção.
